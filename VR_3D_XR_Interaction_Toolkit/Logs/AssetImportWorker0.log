@@ -15,12 +15,12 @@ C:/Users/s210e2.B14_210_02/Desktop/Asdrubal/VR_XR_Interaction_Toolkit/VR_3D_XR_I
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-33826
+21683
 Successfully changed project path to: C:/Users/s210e2.B14_210_02/Desktop/Asdrubal/VR_XR_Interaction_Toolkit/VR_3D_XR_Interaction_Toolkit
 C:/Users/s210e2.B14_210_02/Desktop/Asdrubal/VR_XR_Interaction_Toolkit/VR_3D_XR_Interaction_Toolkit
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 43.90 ms, found 5 plugins.
-Preloading 1 native plugins for Editor in 0.83 ms.
+Refreshing native plugins compatible for Editor in 42.76 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.69 ms.
 Initialize engine version: 2020.3.14f1 (d0d1bb862f9d)
 [Subsystems] Discovering subsystems at path E:/Unity/2020.3.14f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/Users/s210e2.B14_210_02/Desktop/Asdrubal/VR_XR_Interaction_Toolkit/VR_3D_XR_Interaction_Toolkit/Assets
@@ -35,37 +35,37 @@ Initialize mono
 Mono path[0] = 'E:/Unity/2020.3.14f1/Editor/Data/Managed'
 Mono path[1] = 'E:/Unity/2020.3.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'E:/Unity/2020.3.14f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56100
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56872
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: E:/Unity/2020.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.000871 seconds.
+Registered in 0.000785 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 37.57 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 36.95 ms, found 5 plugins.
 Preloading 1 native plugins for Editor in 0.06 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.208 seconds
+- Completed reload, in  1.038 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1208ms)
-		BeginReloadAssembly (50ms)
+	ReloadAssembly (1038ms)
+		BeginReloadAssembly (45ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (426ms)
-			LoadAssemblies (49ms)
+		EndReloadAssembly (401ms)
+			LoadAssemblies (45ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (157ms)
+			SetupTypeCache (146ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (31ms)
-			SetupLoadedEditorAssemblies (167ms)
+			SetupLoadedEditorAssemblies (157ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (38ms)
-				BeforeProcessingInitializeOnLoad (15ms)
-				ProcessInitializeOnLoadAttributes (83ms)
+				RefreshPlugins (37ms)
+				BeforeProcessingInitializeOnLoad (14ms)
+				ProcessInitializeOnLoadAttributes (74ms)
 				ProcessInitializeOnLoadMethodAttributes (28ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
@@ -73,11 +73,11 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003319 seconds.
+Registered in 0.003174 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 36.04 ms, found 5 plugins.
-Preloading 1 native plugins for Editor in 0.06 ms.
+Refreshing native plugins compatible for Editor in 38.24 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
 [XR] OculusXRPlugin: registering subsystems
 [XR] Unable to register display lifecyle provider: [1]
 [XR] Oculus Input lifecycle provider registered.
@@ -98,45 +98,45 @@ UnityEngine.Debug:LogError (object)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
 
 Mono: successfully reloaded assembly
-- Completed reload, in  1.191 seconds
+- Completed reload, in  1.185 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1191ms)
-		BeginReloadAssembly (151ms)
+	ReloadAssembly (1186ms)
+		BeginReloadAssembly (150ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (20ms)
-		EndReloadAssembly (985ms)
-			LoadAssemblies (81ms)
+			CreateAndSetChildDomain (17ms)
+		EndReloadAssembly (978ms)
+			LoadAssemblies (89ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (317ms)
+			SetupTypeCache (289ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (49ms)
-			SetupLoadedEditorAssemblies (404ms)
+			RebuildScriptCaches (53ms)
+			SetupLoadedEditorAssemblies (413ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (36ms)
-				BeforeProcessingInitializeOnLoad (86ms)
-				ProcessInitializeOnLoadAttributes (261ms)
-				ProcessInitializeOnLoadMethodAttributes (16ms)
+				RefreshPlugins (38ms)
+				BeforeProcessingInitializeOnLoad (87ms)
+				ProcessInitializeOnLoadAttributes (245ms)
+				ProcessInitializeOnLoadMethodAttributes (37ms)
 				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.75 ms, found 5 plugins.
-Preloading 1 native plugins for Editor in 0.10 ms.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.73 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
 Unloading 2119 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 91.0 MB.
-System memory in use after: 91.1 MB.
+System memory in use before: 91.3 MB.
+System memory in use after: 91.4 MB.
 
-Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 2555.
-Total: 3.151700 ms (FindLiveObjects: 0.223600 ms CreateObjectMapping: 0.098600 ms MarkObjects: 2.697100 ms  DeleteObjects: 0.131400 ms)
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 2556.
+Total: 2.707000 ms (FindLiveObjects: 0.405900 ms CreateObjectMapping: 0.139000 ms MarkObjects: 2.028800 ms  DeleteObjects: 0.132300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -151,305 +151,385 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/_Barking_Dog/3D Free Modular Kit/Camera Profile.asset
-  artifactKey: Guid(66fe30987fca4e747985c93aa3738821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Barking_Dog/3D Free Modular Kit/Camera Profile.asset using Guid(66fe30987fca4e747985c93aa3738821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dce8c956872e4e5c2bcbd4a472ed5a8') in 0.031727 seconds 
-  Import took 0.034666 seconds .
+  path: Assets/XR
+  artifactKey: Guid(3d648330f2b708948b735ed632ca7870) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR using Guid(3d648330f2b708948b735ed632ca7870) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c42e0811936c244a90a7dea8b8000081') in 0.033354 seconds 
+  Import took 0.039618 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000342 seconds.
-  path: Assets/_Barking_Dog/3D Free Modular Kit
-  artifactKey: Guid(993c1992e51804d43aada52f1ac82a20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Barking_Dog/3D Free Modular Kit using Guid(993c1992e51804d43aada52f1ac82a20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce437dc5d3f477f7ac3f90593eef70ec') in 0.002922 seconds 
-  Import took 0.006816 seconds .
+  Time since last request: 0.074437 seconds.
+  path: Assets/XRI
+  artifactKey: Guid(be944fed787b4e64983f20bea3c6100a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XRI using Guid(be944fed787b4e64983f20bea3c6100a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64212ae1355b7c983172e312ad02eebe') in 0.001912 seconds 
+  Import took 0.008280 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000324 seconds.
-  path: Assets/_Barking_Dog
-  artifactKey: Guid(5f1b087f05aa6494a965b2b0e89ce1ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Barking_Dog using Guid(5f1b087f05aa6494a965b2b0e89ce1ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dee3a1acf1b61e5a70c2f44bc157b7cb') in 0.001883 seconds 
-  Import took 0.004794 seconds .
+  Time since last request: 1213.314888 seconds.
+  path: Assets/Script/Grab_ColorChange.cs
+  artifactKey: Guid(9a1309cdb39744943be857763a30aa8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/Grab_ColorChange.cs using Guid(9a1309cdb39744943be857763a30aa8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f12e9b254f443f42d43a504df073ff5') in 0.201410 seconds 
+  Import took 0.316929 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 50.186628 seconds.
-  path: Assets/_Barking_Dog/3D Free Modular Kit/_Prefabs
-  artifactKey: Guid(d1f1e35ed5fd842f7b91e200e0e5fe56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Barking_Dog/3D Free Modular Kit/_Prefabs using Guid(d1f1e35ed5fd842f7b91e200e0e5fe56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fe9445489fe823e01eeeb0dec2bcecb') in 0.001760 seconds 
-  Import took 0.005535 seconds .
+  Time since last request: 190.762406 seconds.
+  path: Assets/_Barking_Dog/3D Free Modular Kit/_Meshes/Materials/Diffuse_01.mat
+  artifactKey: Guid(34e48a3ce50b34c339d8fc61e309e31d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Barking_Dog/3D Free Modular Kit/_Meshes/Materials/Diffuse_01.mat using Guid(34e48a3ce50b34c339d8fc61e309e31d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4528f0a3a26f2100ce9c67fc41c1a1bd') in 0.237408 seconds 
+  Import took 0.242852 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.084546 seconds.
-  path: Assets/_Barking_Dog/3D Free Modular Kit/_Prefabs/Column_01_Top.prefab
-  artifactKey: Guid(3cd8d44393ff84c5b81c559e5a60c35c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Barking_Dog/3D Free Modular Kit/_Prefabs/Column_01_Top.prefab using Guid(3cd8d44393ff84c5b81c559e5a60c35c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed39383929b485c8332eace68f884e86') in 0.541915 seconds 
-  Import took 0.546599 seconds .
+  Time since last request: 0.000375 seconds.
+  path: Assets/_Barking_Dog/3D Free Modular Kit/_Meshes/Materials/Glass.mat
+  artifactKey: Guid(e318ecb29444643f09e7c0d3dea07387) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Barking_Dog/3D Free Modular Kit/_Meshes/Materials/Glass.mat using Guid(e318ecb29444643f09e7c0d3dea07387) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f09dfbe8eb2a937198f8fe9a345330b1') in 0.014480 seconds 
+  Import took 0.018438 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000257 seconds.
-  path: Assets/_Barking_Dog/3D Free Modular Kit/_Prefabs/Roof_01.prefab
-  artifactKey: Guid(1a5e2f40365fe44ada271dd97ea7506f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Barking_Dog/3D Free Modular Kit/_Prefabs/Roof_01.prefab using Guid(1a5e2f40365fe44ada271dd97ea7506f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbb76127c0cfbb044c4e94bb860f4d12') in 0.047533 seconds 
-  Import took 0.052003 seconds .
+  Time since last request: 0.000300 seconds.
+  path: Assets/_Barking_Dog/3D Free Modular Kit/_Meshes/Materials/Neon_01.mat
+  artifactKey: Guid(91a1b05a08a334950a599b252610e8cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Barking_Dog/3D Free Modular Kit/_Meshes/Materials/Neon_01.mat using Guid(91a1b05a08a334950a599b252610e8cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f47c0df650be4b8e5ae453847894ce7f') in 0.010191 seconds 
+  Import took 0.014166 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000216 seconds.
-  path: Assets/_Barking_Dog/3D Free Modular Kit/_Prefabs/Light_01.prefab
-  artifactKey: Guid(530f5ce44fdac4197a29f5bec8818d85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Barking_Dog/3D Free Modular Kit/_Prefabs/Light_01.prefab using Guid(530f5ce44fdac4197a29f5bec8818d85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '524cd3ce449236f3ab1925aa913e150d') in 0.030295 seconds 
-  Import took 0.034583 seconds .
+  Time since last request: 1653.246684 seconds.
+  path: Assets/Anims
+  artifactKey: Guid(7a4e5ceb6819fe349a928e0e6fd8a9cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anims using Guid(7a4e5ceb6819fe349a928e0e6fd8a9cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db9441ed7efb7adb36c24bb736542914') in 0.004387 seconds 
+  Import took 0.009763 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000273 seconds.
-  path: Assets/_Barking_Dog/3D Free Modular Kit/_Prefabs/Floor_01.prefab
-  artifactKey: Guid(c76d2d3504ddb4847940a815cad04644) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Barking_Dog/3D Free Modular Kit/_Prefabs/Floor_01.prefab using Guid(c76d2d3504ddb4847940a815cad04644) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5acda7c9a2989592541d2bef0805f67c') in 0.026579 seconds 
-  Import took 0.030856 seconds .
+  Time since last request: 0.001416 seconds.
+  path: Assets/Anims
+  artifactKey: Guid(7a4e5ceb6819fe349a928e0e6fd8a9cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anims using Guid(7a4e5ceb6819fe349a928e0e6fd8a9cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db9441ed7efb7adb36c24bb736542914') in 0.002074 seconds 
+  Import took 0.005783 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000177 seconds.
-  path: Assets/_Barking_Dog/3D Free Modular Kit/_Prefabs/Roof_Angle_Smal_01.prefab
-  artifactKey: Guid(d3cf9ea092c094147a2a98c2a7973a3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Barking_Dog/3D Free Modular Kit/_Prefabs/Roof_Angle_Smal_01.prefab using Guid(d3cf9ea092c094147a2a98c2a7973a3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4344dfb0048d7290224364949bbfb2ad') in 0.020243 seconds 
-  Import took 0.025129 seconds .
+  Time since last request: 15.831885 seconds.
+  path: Assets/Anims/DoorWork.controller
+  artifactKey: Guid(77cfb0159232e6d43afd3a11c88331e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anims/DoorWork.controller using Guid(77cfb0159232e6d43afd3a11c88331e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cdf59cae941a2571372ceeb544db669') in 0.006372 seconds 
+  Import took 0.010476 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000278 seconds.
-  path: Assets/_Barking_Dog/3D Free Modular Kit/_Prefabs/Roof_02.prefab
-  artifactKey: Guid(b9038ed84a1fe4aecb34086f7f42d1bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Barking_Dog/3D Free Modular Kit/_Prefabs/Roof_02.prefab using Guid(b9038ed84a1fe4aecb34086f7f42d1bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1efb80e99423e8f6e9790b65081de588') in 0.020533 seconds 
-  Import took 0.026116 seconds .
+  Time since last request: 164.459635 seconds.
+  path: Assets/Anims/DoorWorkRight.controller
+  artifactKey: Guid(77cfb0159232e6d43afd3a11c88331e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anims/DoorWorkRight.controller using Guid(77cfb0159232e6d43afd3a11c88331e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccdcf32117d9caaa5c02a71613ad32d9') in 0.004267 seconds 
+  Import took 0.008320 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000191 seconds.
-  path: Assets/_Barking_Dog/3D Free Modular Kit/_Prefabs/Wall_HalfArc_90_03.prefab
-  artifactKey: Guid(ff42754d1c37f4da7b050c07fe83d3af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Barking_Dog/3D Free Modular Kit/_Prefabs/Wall_HalfArc_90_03.prefab using Guid(ff42754d1c37f4da7b050c07fe83d3af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d793cf1469d32ce88ee8abb3a2d7c69') in 0.032257 seconds 
-  Import took 0.036290 seconds .
+  Time since last request: 10.023172 seconds.
+  path: Assets/Anims/DoorWorkLeft.controller
+  artifactKey: Guid(4c813a67d03576f41b6ebfec48f1d886) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anims/DoorWorkLeft.controller using Guid(4c813a67d03576f41b6ebfec48f1d886) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e7771bf9d558f57fa9b3400370ab09c') in 0.002935 seconds 
+  Import took 0.007024 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000176 seconds.
-  path: Assets/_Barking_Dog/3D Free Modular Kit/_Prefabs/Floor_Small_01.prefab
-  artifactKey: Guid(1acd03bc537c24f3484ab4d6f07b9e02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Barking_Dog/3D Free Modular Kit/_Prefabs/Floor_Small_01.prefab using Guid(1acd03bc537c24f3484ab4d6f07b9e02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4c51991701aaff842393e2204271730') in 0.020452 seconds 
-  Import took 0.025016 seconds .
+  Time since last request: 2.429930 seconds.
+  path: Assets/Anims/DoorOpenLeft.anim
+  artifactKey: Guid(f6962fc600a559348b3d02acd666b594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anims/DoorOpenLeft.anim using Guid(f6962fc600a559348b3d02acd666b594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1caa827584656a834897bc0660f38c6e') in 0.003796 seconds 
+  Import took 0.008851 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000311 seconds.
-  path: Assets/_Barking_Dog/3D Free Modular Kit/_Prefabs/Room_Big_Part_02.prefab
-  artifactKey: Guid(56f887c8f9289447895ae8a07be226ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Barking_Dog/3D Free Modular Kit/_Prefabs/Room_Big_Part_02.prefab using Guid(56f887c8f9289447895ae8a07be226ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dccd4fb57f6afd1d64dee4d60ce01ac') in 0.022269 seconds 
-  Import took 0.027115 seconds .
+  Time since last request: 0.041004 seconds.
+  path: Assets/Anims/DoorOpenLeft.anim
+  artifactKey: Guid(f6962fc600a559348b3d02acd666b594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anims/DoorOpenLeft.anim using Guid(f6962fc600a559348b3d02acd666b594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1caa827584656a834897bc0660f38c6e') in 0.002184 seconds 
+  Import took 0.007366 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000374 seconds.
-  path: Assets/_Barking_Dog/3D Free Modular Kit/_Prefabs/Wall_Simple_01.prefab
-  artifactKey: Guid(a4c18952442944083b1fddc06ba477c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Barking_Dog/3D Free Modular Kit/_Prefabs/Wall_Simple_01.prefab using Guid(a4c18952442944083b1fddc06ba477c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0b8762bb1e0c1cf8f6027310666a5ea') in 0.020786 seconds 
-  Import took 0.025280 seconds .
+  Time since last request: 0.798723 seconds.
+  path: Assets/Anims/DoorOpenRight.anim
+  artifactKey: Guid(35cee58bb1c390849af63fa505333149) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anims/DoorOpenRight.anim using Guid(35cee58bb1c390849af63fa505333149) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a21611f9caa35a8fbdc8ea81b6a9c03c') in 0.002714 seconds 
+  Import took 0.008064 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000236 seconds.
-  path: Assets/_Barking_Dog/3D Free Modular Kit/_Prefabs/Room_Big_Part_03.prefab
-  artifactKey: Guid(39b43e271567b4134a12f482c52c8a0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Barking_Dog/3D Free Modular Kit/_Prefabs/Room_Big_Part_03.prefab using Guid(39b43e271567b4134a12f482c52c8a0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b722b3b684982b77d85de2fc553cd700') in 0.023361 seconds 
-  Import took 0.028293 seconds .
+  Time since last request: 5.918189 seconds.
+  path: Assets/Anims/DoorCloseRight.anim
+  artifactKey: Guid(44fe8d6801091dc4b89e21b3f490cbe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anims/DoorCloseRight.anim using Guid(44fe8d6801091dc4b89e21b3f490cbe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6f1cd20cd76396c4b6169a1377625de') in 0.002964 seconds 
+  Import took 0.009706 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000223 seconds.
-  path: Assets/_Barking_Dog/3D Free Modular Kit/_Prefabs/Roof_Door_01.prefab
-  artifactKey: Guid(1e6809cccc6f04f01b0819da314e428b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Barking_Dog/3D Free Modular Kit/_Prefabs/Roof_Door_01.prefab using Guid(1e6809cccc6f04f01b0819da314e428b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5292db4a0e3ef90be54a89854fd380c4') in 0.020851 seconds 
-  Import took 0.025260 seconds .
+  Time since last request: 45.615894 seconds.
+  path: Assets/Anims/DoorWorkLeft.controller
+  artifactKey: Guid(4c813a67d03576f41b6ebfec48f1d886) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anims/DoorWorkLeft.controller using Guid(4c813a67d03576f41b6ebfec48f1d886) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8fe839a1bbb7b3141cc983edb4c85ec') in 0.003685 seconds 
+  Import took 0.009621 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000233 seconds.
-  path: Assets/_Barking_Dog/3D Free Modular Kit/_Prefabs/Door_Arch_01.prefab
-  artifactKey: Guid(0f9396310131e47e3979f1a7cb96c071) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Barking_Dog/3D Free Modular Kit/_Prefabs/Door_Arch_01.prefab using Guid(0f9396310131e47e3979f1a7cb96c071) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fb56233702a3c2a49ef3930d34bbfec') in 0.021876 seconds 
-  Import took 0.026702 seconds .
+  Time since last request: 0.006071 seconds.
+  path: Assets/Anims/DoorWorkLeft.controller
+  artifactKey: Guid(4c813a67d03576f41b6ebfec48f1d886) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anims/DoorWorkLeft.controller using Guid(4c813a67d03576f41b6ebfec48f1d886) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8fe839a1bbb7b3141cc983edb4c85ec') in 0.003437 seconds 
+  Import took 0.007935 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000264 seconds.
-  path: Assets/_Barking_Dog/3D Free Modular Kit/_Prefabs/Wall_Arc_90_01.prefab
-  artifactKey: Guid(e4f34474191354a5688752acf8cf95fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Barking_Dog/3D Free Modular Kit/_Prefabs/Wall_Arc_90_01.prefab using Guid(e4f34474191354a5688752acf8cf95fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22864825073f2e17bda1a0561c852566') in 0.022055 seconds 
-  Import took 0.027550 seconds .
+  Time since last request: 25.527526 seconds.
+  path: Assets/Anims/DoorWorkRight.controller
+  artifactKey: Guid(77cfb0159232e6d43afd3a11c88331e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anims/DoorWorkRight.controller using Guid(77cfb0159232e6d43afd3a11c88331e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3894f631cc202d4b74ffaf93dfb4551b') in 0.003478 seconds 
+  Import took 0.009559 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000203 seconds.
-  path: Assets/_Barking_Dog/3D Free Modular Kit/_Prefabs/Wall_Arc_90_02.prefab
-  artifactKey: Guid(13990f94448cc49c08e917134d8b0479) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Barking_Dog/3D Free Modular Kit/_Prefabs/Wall_Arc_90_02.prefab using Guid(13990f94448cc49c08e917134d8b0479) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76e1b4086d2168ed1ed4605f64760413') in 0.038307 seconds 
-  Import took 0.043989 seconds .
+  Time since last request: 0.000614 seconds.
+  path: Assets/Anims/DoorWorkRight.controller
+  artifactKey: Guid(77cfb0159232e6d43afd3a11c88331e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anims/DoorWorkRight.controller using Guid(77cfb0159232e6d43afd3a11c88331e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3894f631cc202d4b74ffaf93dfb4551b') in 0.003392 seconds 
+  Import took 0.008245 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000199 seconds.
-  path: Assets/_Barking_Dog/3D Free Modular Kit/_Prefabs/Roof_Angle_01.prefab
-  artifactKey: Guid(c27c7521daec24863af069554ea1fb47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Barking_Dog/3D Free Modular Kit/_Prefabs/Roof_Angle_01.prefab using Guid(c27c7521daec24863af069554ea1fb47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fa1874a38972ea41f009b5a5cb19f78') in 0.032682 seconds 
-  Import took 0.038828 seconds .
+  Time since last request: 222.700767 seconds.
+  path: Assets/Script/DoorScript.cs
+  artifactKey: Guid(4491caf5ba69e174aa2afd59f9ea393c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/DoorScript.cs using Guid(4491caf5ba69e174aa2afd59f9ea393c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c3f936d75cd1284f031852aec4c8820') in 0.002824 seconds 
+  Import took 0.007551 seconds .
 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000221 seconds.
-  path: Assets/_Barking_Dog/3D Free Modular Kit/_Prefabs/Wall_HalfArc_90_02.prefab
-  artifactKey: Guid(618681761d79b4f72b0746a3dcd4bff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Barking_Dog/3D Free Modular Kit/_Prefabs/Wall_HalfArc_90_02.prefab using Guid(618681761d79b4f72b0746a3dcd4bff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3697f792a6a24ebb760286fb2ad79d2') in 0.018778 seconds 
-  Import took 0.022836 seconds .
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003358 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\s210e2.B14_210_02\Desktop\Asdrubal\VR_3D_XR_Interaction_Toolkit\VR_3D_XR_Interaction_Toolkit\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\s210e2.B14_210_02\Desktop\Asdrubal\VR_3D_XR_Interaction_Toolkit\VR_3D_XR_Interaction_Toolkit\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <25e9afc147634a5ca855ab83fab425dd>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
 
+Mono: successfully reloaded assembly
+- Completed reload, in  1.315 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1316ms)
+		BeginReloadAssembly (191ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (94ms)
+		EndReloadAssembly (1066ms)
+			LoadAssemblies (101ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (384ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (398ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (92ms)
+				ProcessInitializeOnLoadAttributes (283ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.50 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Unloading 2103 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 94.3 MB.
+System memory in use after: 94.4 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2601.
+Total: 2.410400 ms (FindLiveObjects: 0.180200 ms CreateObjectMapping: 0.072100 ms MarkObjects: 2.033300 ms  DeleteObjects: 0.123700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003317 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\s210e2.B14_210_02\Desktop\Asdrubal\VR_3D_XR_Interaction_Toolkit\VR_3D_XR_Interaction_Toolkit\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\s210e2.B14_210_02\Desktop\Asdrubal\VR_3D_XR_Interaction_Toolkit\VR_3D_XR_Interaction_Toolkit\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <25e9afc147634a5ca855ab83fab425dd>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.138 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1138ms)
+		BeginReloadAssembly (112ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (40ms)
+		EndReloadAssembly (950ms)
+			LoadAssemblies (94ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (326ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (377ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (86ms)
+				ProcessInitializeOnLoadAttributes (269ms)
+				ProcessInitializeOnLoadMethodAttributes (14ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.50 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Unloading 2103 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 94.4 MB.
+System memory in use after: 94.5 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2605.
+Total: 2.759500 ms (FindLiveObjects: 0.200400 ms CreateObjectMapping: 0.074800 ms MarkObjects: 2.362500 ms  DeleteObjects: 0.107800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003032 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.69 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\s210e2.B14_210_02\Desktop\Asdrubal\VR_3D_XR_Interaction_Toolkit\VR_3D_XR_Interaction_Toolkit\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\s210e2.B14_210_02\Desktop\Asdrubal\VR_3D_XR_Interaction_Toolkit\VR_3D_XR_Interaction_Toolkit\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <25e9afc147634a5ca855ab83fab425dd>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.063 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1063ms)
+		BeginReloadAssembly (97ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (915ms)
+			LoadAssemblies (77ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (349ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (340ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (76ms)
+				ProcessInitializeOnLoadAttributes (243ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.47 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Unloading 2103 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 94.4 MB.
+System memory in use after: 94.5 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2609.
+Total: 2.612500 ms (FindLiveObjects: 0.339800 ms CreateObjectMapping: 0.180500 ms MarkObjects: 2.008300 ms  DeleteObjects: 0.083000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000261 seconds.
-  path: Assets/_Barking_Dog/3D Free Modular Kit/_Prefabs/Roof_Angle_Large_01.prefab
-  artifactKey: Guid(4d57a31eab232457da9acbcc32af22cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Barking_Dog/3D Free Modular Kit/_Prefabs/Roof_Angle_Large_01.prefab using Guid(4d57a31eab232457da9acbcc32af22cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83472546f1c35b3aa06437f4868bd711') in 0.021181 seconds 
-  Import took 0.026490 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000214 seconds.
-  path: Assets/_Barking_Dog/3D Free Modular Kit/_Prefabs/Room_Big_Part_01.prefab
-  artifactKey: Guid(8db5b99e1590340a4a7166fa4c9f9cf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Barking_Dog/3D Free Modular Kit/_Prefabs/Room_Big_Part_01.prefab using Guid(8db5b99e1590340a4a7166fa4c9f9cf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0b5219d240d222aaba72e8b088b01bc') in 0.030654 seconds 
-  Import took 0.035096 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000197 seconds.
-  path: Assets/_Barking_Dog/3D Free Modular Kit/_Prefabs/Door_Left_01.prefab
-  artifactKey: Guid(088b5f04d52a542ec975e88d7d9934f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Barking_Dog/3D Free Modular Kit/_Prefabs/Door_Left_01.prefab using Guid(088b5f04d52a542ec975e88d7d9934f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f5420be8fa2479223ebfd2a205d5da7') in 0.265660 seconds 
-  Import took 0.269603 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000208 seconds.
-  path: Assets/_Barking_Dog/3D Free Modular Kit/_Prefabs/Room_Big_Part_04.prefab
-  artifactKey: Guid(338a3a19b542e4a5bae99feecf242132) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Barking_Dog/3D Free Modular Kit/_Prefabs/Room_Big_Part_04.prefab using Guid(338a3a19b542e4a5bae99feecf242132) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6463df23cc3ccd54e58051dc2365081e') in 0.024023 seconds 
-  Import took 0.029303 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000273 seconds.
-  path: Assets/_Barking_Dog/3D Free Modular Kit/_Prefabs/Fan_01.prefab
-  artifactKey: Guid(45b9a5b6a96ed4d0699b4faff594d8c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Barking_Dog/3D Free Modular Kit/_Prefabs/Fan_01.prefab using Guid(45b9a5b6a96ed4d0699b4faff594d8c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '486d1e87eaa3f369a587831b3cf56523') in 0.022163 seconds 
-  Import took 0.026272 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.002949 seconds.
-  path: Assets/_Barking_Dog/3D Free Modular Kit/_Prefabs/Fan_01.prefab
-  artifactKey: Guid(45b9a5b6a96ed4d0699b4faff594d8c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Barking_Dog/3D Free Modular Kit/_Prefabs/Fan_01.prefab using Guid(45b9a5b6a96ed4d0699b4faff594d8c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '486d1e87eaa3f369a587831b3cf56523') in 0.019865 seconds 
-  Import took 0.025372 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 17.213888 seconds.
-  path: Assets/Prefabs
-  artifactKey: Guid(8644d54bfbe68b74e96a4b57e77ae2c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs using Guid(8644d54bfbe68b74e96a4b57e77ae2c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83878d1e90c428f6d7789f7c5d04195b') in 0.001723 seconds 
-  Import took 0.005698 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 15.588688 seconds.
-  path: Assets/Prefabs/Cube.prefab
-  artifactKey: Guid(e0321f30a4516824382d26f7ef92f48e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Cube.prefab using Guid(e0321f30a4516824382d26f7ef92f48e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c7dc917bc436ad7d3d382697595bd1c') in 0.015440 seconds 
-  Import took 0.018959 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.075348 seconds.
-  path: Assets/Prefabs/Cube.prefab
-  artifactKey: Guid(e0321f30a4516824382d26f7ef92f48e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Cube.prefab using Guid(e0321f30a4516824382d26f7ef92f48e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c7dc917bc436ad7d3d382697595bd1c') in 0.009584 seconds 
-  Import took 0.012980 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.560715 seconds.
-  path: Assets/Prefabs/Elemento1.prefab
-  artifactKey: Guid(7b506e766cbd276498590dfe498bd5ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Elemento1.prefab using Guid(7b506e766cbd276498590dfe498bd5ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52ce7707e99487450fc7ce0259a20076') in 0.051553 seconds 
-  Import took 0.055223 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.037543 seconds.
-  path: Assets/Prefabs/Elemento1.prefab
-  artifactKey: Guid(7b506e766cbd276498590dfe498bd5ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Elemento1.prefab using Guid(7b506e766cbd276498590dfe498bd5ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52ce7707e99487450fc7ce0259a20076') in 0.009639 seconds 
-  Import took 0.013081 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.123522 seconds.
-  path: Assets/Prefabs/XR Origin.prefab
-  artifactKey: Guid(9d8c798c00c7ae14cad648325ba9f7a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/XR Origin.prefab using Guid(9d8c798c00c7ae14cad648325ba9f7a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcda3a656e8f813fd59693d922d8bbeb') in 0.047043 seconds 
-  Import took 0.051234 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001313 seconds.
-  path: Assets/Prefabs/XR Origin.prefab
-  artifactKey: Guid(9d8c798c00c7ae14cad648325ba9f7a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/XR Origin.prefab using Guid(9d8c798c00c7ae14cad648325ba9f7a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcda3a656e8f813fd59693d922d8bbeb') in 0.013123 seconds 
-  Import took 0.017388 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.203327 seconds.
-  path: Assets/Prefabs/XR Interaction Manager.prefab
-  artifactKey: Guid(6ab53e1fd6d80ce44b9be049ce5a2d39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/XR Interaction Manager.prefab using Guid(6ab53e1fd6d80ce44b9be049ce5a2d39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cb4ca826627cc692b5b33fe4cad0237') in 0.006781 seconds 
-  Import took 0.010617 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.009966 seconds.
-  path: Assets/Prefabs/XR Interaction Manager.prefab
-  artifactKey: Guid(6ab53e1fd6d80ce44b9be049ce5a2d39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/XR Interaction Manager.prefab using Guid(6ab53e1fd6d80ce44b9be049ce5a2d39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cb4ca826627cc692b5b33fe4cad0237') in 0.004600 seconds 
-  Import took 0.008361 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.320555 seconds.
-  path: Assets/_Barking_Dog/3D Free Modular Kit/Test_Map.unity
-  artifactKey: Guid(7b533dfe561bc47c8975c955fe4ef3d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Barking_Dog/3D Free Modular Kit/Test_Map.unity using Guid(7b533dfe561bc47c8975c955fe4ef3d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '603355e1ab8261cf676735e0247e696b') in 0.002187 seconds 
-  Import took 0.005937 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.938549 seconds.
-  path: Assets/Scenes
-  artifactKey: Guid(2ca5388c0c68c36489afb987ba2a8b05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes using Guid(2ca5388c0c68c36489afb987ba2a8b05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf9ff7f7e555bfde997602cb03daadf7') in 0.001850 seconds 
-  Import took 0.005981 seconds .
+  Time since last request: 1073.636749 seconds.
+  path: Assets/Anims/DoorWorkLeft.controller
+  artifactKey: Guid(4c813a67d03576f41b6ebfec48f1d886) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anims/DoorWorkLeft.controller using Guid(4c813a67d03576f41b6ebfec48f1d886) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de55ae6ba3e372c2073332d3e3c62576') in 0.021094 seconds 
+  Import took 0.025084 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
