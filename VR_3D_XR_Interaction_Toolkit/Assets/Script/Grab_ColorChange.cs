@@ -19,7 +19,7 @@ public class Grab_ColorChange : MonoBehaviour
 
     public void SetColor(Material Color)
     {
-        meshRenderer.material = Color;
+       // meshRenderer.material = Color;
     }
 
  
